@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            function pluralize(word)
+            {
+                if(word === "moose")
+                    return("moose")
+
+                else if(word === "automaton")
+                    return("automata")
+
+                else if(word === "mouse")
+                    return("mice")
+
+                else
+                    return(word + 's')
+                
+                
+            }
+
+            word = prompt("Give me a word:")
+            plural = pluralize(word)
+
+            console.log(" well if there were more than one " + word + " we would call them " + plural)
+            
+        </script>
+    </body>
+</html>
